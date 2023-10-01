@@ -18,6 +18,6 @@ input.onButtonPressed(Button.A, function () {
 
 // turning off LED
 input.onButtonPressed(Button.B, function () {
-  basic.showIcon(IconNames.No)
+    basic.showIcon(IconNames.No)
   pins.digitalWritePin(DigitalPin.P16, 0)
 })
